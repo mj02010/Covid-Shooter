@@ -1,0 +1,43 @@
+html,body{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    margin-bottom: -50px;
+    margin-top: 25vh
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    height: 100vh;
+    width: 100vw;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#covidCanvas {
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    height:100% !important;
+    width:100% !important;
+    
+
+    background-image: url("../images/image.jpg");
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-size: 100% 100%;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+   background-repeat: repeat;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
